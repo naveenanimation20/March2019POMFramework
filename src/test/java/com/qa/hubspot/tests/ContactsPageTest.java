@@ -50,6 +50,7 @@ public class ContactsPageTest {
 
 	@AfterMethod
 	public void tearDown() {
+		//quit the browser
 		driver.quit();
 	}
 
