@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Hub Spot Test Suite" verbose="1">
+	<listeners>
+		<listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />
+	</listeners>
+
+	<test name="hub spot regression Test">
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginTest" />
+			<!-- <class name="com.qa.hubspot.tests.HomePageTest" />
+			<class name="com.qa.hubspot.tests.ContactsPageTest" /> -->
+		</classes>
+	</test>
+</suite>
